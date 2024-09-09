@@ -67,10 +67,10 @@ class Msg(object):
         "\n\n<b>Name: </b>{file_name},\n<b>Link:</b> `{file_link}`\n\n<b>Error:</b> {error}"
 
     SHOW_MSG = "<b>Downloading :- "\
-        "\n`{file_name}`\n\nLink :- `{file_link}`</b>"
+        "\n**🎞️ Title :** `{file_name}`\n\nLink :- `{file_link}`</b>"
 
     CMD_MSG_1 = "`{txt}`\n\n**Total Links in File are :-** {no_of_links}\n\n**Send any Index From `[ 1 - {no_of_links} ]` :-**"
-    CMD_MSG_2 = "<b>Uploading :- </b> `{file_name}`"
+    CMD_MSG_2 = "<b>📤 𝐔𝐏𝐋𝐎𝐀𝐃𝐈𝐍𝐆! 📤</b> 🎞️ Title : `{file_name}`"
     RESTART_MSG = "✅ HI Bhai log\n✅ PATH CLEARED"
 
 # Prefixes
