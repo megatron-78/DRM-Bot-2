@@ -57,7 +57,7 @@ class Store(object):
 
 # Format
 class Msg(object):
-    START_MSG = "**/drm**"
+    START_MSG = "**/pro**"
 
     TXT_MSG = "Hey <b>{user},"\
         "\n\n`I'm Multi-Talented Robot. I Can Download Many Type of Links.`"\
@@ -110,7 +110,7 @@ if __name__ == "__main__":
         
         for i in chat_id:
             try:
-                await PRO.send_message(chat_id=i, text="**Bot Started! ♾ /drm **")
+                await PRO.send_message(chat_id=i, text="**Bot Started! ♾ /pro **")
             except Exception as d:
                 print(d)
                 continue
